@@ -1,0 +1,19 @@
+.react-player {
+  border-radius: 10px;
+  width: 200px;
+  position: relative;
+}
+
+.react-player::before {
+  content: "";
+  position: absolute;
+  right: -15%;
+  bottom: -15%;
+  width: 150px;
+  height: 150px;
+  transform: rotate(20deg);
+  background-image: url("../../assets/svg/Vector.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
