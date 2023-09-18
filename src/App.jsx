@@ -7,16 +7,18 @@ import Hero from './components/hero/hero';
 import Navbar from './components/navbar/navbar';
 import Buy from "./components/buy/buy";
 import HelpCenter from './components/help_center/help_center';
+import Slider from './components/slider/slider';
 
 function App() {
-  
+
   return (
     <>
       <Container>
         <Navbar />
         <Hero />
-        {/* <About_us /> */}
-        {/* <Course /> */}
+        <About_us />
+        <Course />
+        <Slider />
         {/* <FreeCourse /> */}
         {/* <Buy /> */}
         {/* <HelpCenter /> */}
