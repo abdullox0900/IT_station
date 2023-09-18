@@ -36,33 +36,31 @@ const Slider = () => {
                 <SwiperSlide><img src={Teachers} alt="" />
                     <h3>Jahongir Rahmonov</h3>
                     <a href="#">Amazon Web Service (AWS)</a>
-                    <p>7 yillik tajribaga ega Software Engineer.</p>
+                    <p className='teachers__p'>7 yillik tajribaga ega Software Engineer.</p>
                     <img className='in' src={In} alt="in" width={30} height={30} />
                 </SwiperSlide>
+               
                 <SwiperSlide><img src={Teachers} alt="" />
                     <h3>Jahongir Rahmonov</h3>
                     <a href="#">Amazon Web Service (AWS)</a>
-                    <p>7 yillik tajribaga ega Software Engineer.</p>
-                    <img className='in' src={In} alt="in" />
+                    <p className='teachers__p'>7 yillik tajribaga ega Software Engineer.</p>
+                    <img className='in' src={In} alt="in" width={30} height={30} />
                 </SwiperSlide>
+               
                 <SwiperSlide><img src={Teachers} alt="" />
                     <h3>Jahongir Rahmonov</h3>
                     <a href="#">Amazon Web Service (AWS)</a>
-                    <p>7 yillik tajribaga ega Software Engineer.</p>
-                    <img className='in' src={In} alt="in" />
+                    <p className='teachers__p'>7 yillik tajribaga ega Software Engineer.</p>
+                    <img className='in' src={In} alt="in" width={30} height={30} />
                 </SwiperSlide>
+               
                 <SwiperSlide><img src={Teachers} alt="" />
                     <h3>Jahongir Rahmonov</h3>
                     <a href="#">Amazon Web Service (AWS)</a>
-                    <p>7 yillik tajribaga ega Software Engineer.</p>
-                    <img className='in' src={In} alt="in" />
+                    <p className='teachers__p'>7 yillik tajribaga ega Software Engineer.</p>
+                    <img className='in' src={In} alt="in" width={30} height={30} />
                 </SwiperSlide>
-                <SwiperSlide><img src={Teachers} alt="" />
-                    <h3>Jahongir Rahmonov</h3>
-                    <a href="#">Amazon Web Service (AWS)</a>
-                    <p>7 yillik tajribaga ega Software Engineer.</p>
-                    <img className='in' src={In} alt="in" />
-                </SwiperSlide>
+               
             </Swiper>
         </>
     )
