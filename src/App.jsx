@@ -8,6 +8,7 @@ import Navbar from './components/navbar/navbar';
 import Buy from "./components/buy/buy";
 import HelpCenter from './components/help_center/help_center';
 import Slider from './components/slider/slider';
+import Location from './components/location/location';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <FreeCourse />
         <Buy />
         <HelpCenter />
+        <Location />
       </Container>
     </>
   )

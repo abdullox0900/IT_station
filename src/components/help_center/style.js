@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 
 export const HelpSection = styled.div`
   padding-top: 128px;
+  padding-bottom: 116px;
 `;
 
 export const HelpWrapper = styled.div`
