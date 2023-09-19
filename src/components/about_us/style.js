@@ -25,6 +25,11 @@ export const AboutStartH3 = styled.h3`
   @media only screen and (max-width: 768px) {
     font-size: 30px;
   }
+
+  @media only screen and (max-width: 425px) {
+    font-size: 25px;
+    letter-spacing: 0.1px;
+  }
 `;
 
 export const AboutVideo = styled.div`
@@ -33,4 +38,3 @@ export const AboutVideo = styled.div`
   align-items: center;
   padding-bottom: 190px;
 `;
-

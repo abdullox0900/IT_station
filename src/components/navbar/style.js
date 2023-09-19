@@ -6,8 +6,8 @@ export const NavbarLogoImg = styled.img`
   height: 57px;
 
   @media only screen and (max-width: 768px) {
-    width: 80px;
-    height: 40px;
+    width: 120px;
+    height: 57px;
   }
 
   @media only screen and (max-width: 425px) {
@@ -22,6 +22,10 @@ export const NavbarWrapper = styled.div`
   align-items: center;
   padding-top: 34px;
   padding-bottom: 100px;
+
+  @media only screen and (max-width: 425px) {
+    padding-bottom: 50px;
+  }
 `;
 
 export const NavbarLogo = styled.div`
@@ -32,6 +36,10 @@ export const NavbarList = styled.ul`
   display: flex;
   align-items: center;
   gap: 25px;
+
+  @media only screen and (max-width: 580px) {
+    display: none;
+  }
 
   @media only screen and (max-width: 425px) {
     display: none;
@@ -49,8 +57,20 @@ export const NavbarItem = styled.li`
   cursor: pointer;
 
   @media only screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 14px;
   }
+
+  @media only screen and (max-width: 425px) {
+    width: 120px;
+    font-size: 16px;
+    line-height: 50px;
+  }
+`;
+
+export const NavbarButtonWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const NavbarButton = styled.button`
@@ -75,15 +95,25 @@ export const NavbarButton = styled.button`
     padding: 10px 10px;
     border-radius: 10px;
   }
+
+  @media only screen and (max-width: 425) {
+    width: 100.059px;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
 `;
 
 export const NavbarHamburgerBtn = styled.button`
-  padding: 10px 10px;
+  padding: 15px 10px;
   border: none;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   display: none;
+
+  @media only screen and (max-width: 580px) {
+    display: flex;
+  }
 
   @media only screen and (max-width: 425px) {
     display: flex;
@@ -91,22 +121,22 @@ export const NavbarHamburgerBtn = styled.button`
 `;
 
 export const NavbarHamburgerSpanWrapper = styled.span`
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
- gap: 5px;
-`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+`;
 
 export const NavbarHamburgerSpan = styled.span`
   width: 25px;
   height: 4px;
   background-color: #000;
   border-radius: 10px;
-`
+`;
 
 export const NavbarHamburgerSidebar = styled.div`
   width: 500px;
   height: 100%;
   background-color: red;
-`
+`;

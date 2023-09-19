@@ -29,8 +29,47 @@ export const HeroLeftTitleH1 = styled.h1`
   letter-spacing: -1.92px;
   padding-bottom: 40px;
 
+  @media only screen and (max-width: 1250px) {
+    font-size: 55px;
+  }
+
+  @media only screen and (max-width: 1086px) {
+    font-size: 40px;
+  }
+
+  @media only screen and (max-width: 1075px) {
+    width: 347px;
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 1140px) {
+    width: 347px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  @media only screen and (max-width: 884px) {
+    width: 357px;
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  @media only screen and (max-width: 815px) {
+    width: 300px;
+    font-size: 35px;
+    line-height: 50px;
+  }
+
   @media only screen and (max-width: 768px) {
+    padding-top: 40px;
     text-align: center;
+  }
+
+  @media only screen and (max-width: 425px) {
+    width: 300px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 45px;
   }
 `;
 
@@ -58,11 +97,51 @@ export const HeroLeftButton = styled.button`
   font-weight: 600;
   line-height: 22px; /* 137.5% */
   letter-spacing: -0.16px;
+
+  @media only screen and (max-width: 425px) {
+    padding: 15px 10px;
+    width: 181px;
+  }
 `;
 
 export const HeroRightImg = styled.img`
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1250px) {
     width: 550px;
     height: 450px;
+  }
+
+  @media only screen and (max-width: 1086px) {
+    width: 530px;
+    height: 430px;
+  }
+
+  @media only screen and (max-width: 1140px) {
+    width: 520px;
+    height: 420px;
+  }
+
+  @media only screen and (max-width: 1110px) {
+    width: 500px;
+    height: 400px;
+  }
+
+  @media only screen and (max-width: 868px) {
+    width: 410px;
+    height: 320px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    width: 400px;
+    height: 320px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 400px;
+    height: 320px;
+  }
+
+  @media only screen and (max-width: 425px) {
+    width: 400px;
+    height: 300px;
   }
 `;

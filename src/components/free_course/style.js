@@ -26,6 +26,11 @@ export const FreeCourseStartH3 = styled.h3`
   @media screen and (max-width: 768px) {
     font-size: 38px;
   }
+
+  @media screen and (max-width: 425px) {
+    font-size: 28px;
+    letter-spacing: -1px;
+  }
 `;
 
 export const FreeCourseBtnWrapper = styled.div`
@@ -34,9 +39,19 @@ export const FreeCourseBtnWrapper = styled.div`
   align-items: center;
   gap: 24px;
   padding-bottom: 61px;
+  white-space: nowrap;
+
+  @media screen and (max-width: 1010px) {
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 425px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const FreeCourseBtns = styled.button`
+  width: 125px;
   padding: 10px 20px;
   border-radius: 5px;
   border: 1px solid #c4c4c4;
@@ -55,8 +70,19 @@ export const FreeCourseBtns = styled.button`
     color: #fff;
   }
 
-  @media only screen and (min-width: 768px) {
+  &:active {
+    background: #263039;
+    color: #fff;
+  }
+
+  @media only screen and (max-width: 768px) {
     padding: 10px 2px;
+    white-space: nowrap;
+  }
+
+  @media only screen and (max-width: 425px) {
+    width: 125px;
+    padding: 10px 12px;
     white-space: nowrap;
   }
 `;

@@ -16,9 +16,9 @@ function App() {
       <Container>
         <Navbar />
         <Hero />
-        <About_us />
+        {/* <About_us /> */}
         <Course />
-        <Slider />
+        {/* <Slider /> */}
         {/* <FreeCourse /> */}
         {/* <Buy /> */}
         {/* <HelpCenter /> */}

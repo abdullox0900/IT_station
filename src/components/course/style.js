@@ -17,8 +17,17 @@ export const CourseStartH3 = styled.h3`
   line-height: 56px; /* 175% */
   letter-spacing: -0.64px;
 
+  @media only screen and (max-width: 1189px) {
+    text-align: center;
+  }
+
   @media only screen and (max-width: 768px) {
     text-align: center;
+  }
+
+  @media only screen and (max-width: 425px) {
+    text-align: center;
+    font-size: 22px;
   }
 `;
 
@@ -40,6 +49,12 @@ export const CourseCard = styled.div`
   justify-content: center;
   align-items: center;
   padding: 34px;
+
+  @media only screen and (max-width: 425px) {
+    width: 380px;
+    height: 250px;
+    padding: 15px;
+  }
 `;
 
 export const CourseCardLeft = styled.div``;
@@ -53,6 +68,14 @@ export const CourseCardLeftName = styled.h4`
   line-height: 34px; /* 121.429% */
   letter-spacing: -0.56px;
   padding-bottom: 18px;
+
+  @media only screen and (max-width: 585px) {
+    font-size: 22px;
+  }
+
+  @media only screen and (max-width: 425px) {
+    font-size: 20px;
+  }
 `;
 
 export const CourseCardLeftInfo = styled.p`
@@ -64,6 +87,19 @@ export const CourseCardLeftInfo = styled.p`
   line-height: 24px; /* 171.429% */
   letter-spacing: -0.28px;
   padding-bottom: 21px;
+
+  @media only screen and (max-width: 585px) {
+    font-size: 12px;
+  }
+
+  @media only screen and (max-width: 560px) {
+    font-size: 12px;
+  }
+
+  @media only screen and (max-width: 425px) {
+    font-size: 10px;
+    line-height: 14px;
+  }
 `;
 
 export const CourseCardLeftButton = styled.a`
@@ -85,7 +121,22 @@ export const CourseCardLeftButton = styled.a`
     background: #0f1826;
     color: #fff;
   }
+
+  @media only screen and (max-width: 425px) {
+    width: 70px;
+    padding: 10px 12px;
+    font-size: 10px;
+  }
 `;
 
 export const CourseCardRight = styled.div``;
-export const CourseCardRightImg = styled.img``;
+
+export const CourseCardRightImg = styled.img`
+  @media only screen and (max-width: 542px) {
+    display: none;
+  }
+
+  @media only screen and (max-width: 425px) {
+    display: none;
+  }
+`;
