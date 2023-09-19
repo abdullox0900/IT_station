@@ -16,12 +16,12 @@ function App() {
       <Container>
         <Navbar />
         <Hero />
-        {/* <About_us /> */}
+        <About_us />
         <Course />
-        {/* <Slider /> */}
-        {/* <FreeCourse /> */}
-        {/* <Buy /> */}
-        {/* <HelpCenter /> */}
+        <Slider />
+        <FreeCourse />
+        <Buy />
+        <HelpCenter />
       </Container>
     </>
   )
