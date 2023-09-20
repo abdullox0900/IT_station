@@ -1,0 +1,97 @@
+import { styled } from "styled-components";
+
+export const FooterSection = styled.div`
+  padding-bottom: 50px;
+`;
+
+export const FooterLogoWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 66px;
+`;
+
+export const FooterLogoImg = styled.img`
+  width: 121px;
+  height: 57px;
+  cursor: pointer;
+`;
+
+export const FooterWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const FooterOneWrap = styled.div`
+  width: 250px;
+`;
+
+export const FooterOneWrapP = styled.p`
+  margin-bottom: 17px;
+  color: #263039;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 185.714% */
+`;
+
+export const FooterTwoWrap = styled.div``;
+
+export const FooterTwoWrapH5 = styled.h5`
+  margin-bottom: 30px;
+  color: #0a033c;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+`;
+
+export const FooterTwoWrapP = styled.p`
+  margin-top: 17px;
+  color: #263039;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+`;
+
+export const FooterThreeWrap = styled.div``;
+
+export const FooterThreeWrapH5 = styled.h5`
+  margin-bottom: 30px;
+  color: #0a033c;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+`;
+
+export const FooterThreeWrapP = styled.p`
+  margin-top: 17px;
+  color: #263039;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+`;
+
+export const FooterFourWrap = styled.div``;
+
+export const FooterFourWrapH5 = styled.h5`
+  margin-bottom: 30px;
+  color: #0a033c;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+`;
+
+export const FooterFourWrapP = styled.p``;

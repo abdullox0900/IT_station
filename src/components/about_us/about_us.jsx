@@ -15,7 +15,7 @@ export default function About_us() {
                     </AboutStart>
 
                     <AboutVideo>
-                        <ReactPlayer url='https://www.youtube.com/watch?v=xqyUdNxWazA' className='react-player' controls={true} playIcon={true} width={900} height={500}/>
+                        <ReactPlayer url='https://www.youtube.com/watch?v=xqyUdNxWazA' className='react-player' controls={true} width={900} height={500}/>
                     </AboutVideo>
                 </AboutWrapper>
         </AboutSection>

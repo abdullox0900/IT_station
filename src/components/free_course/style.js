@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 export const FreeCourseCardTop = styled.div``;
 
 export const FreeCourseSection = styled.div`
+  padding-top: 250px;
   padding-bottom: 141px;
 `;
 

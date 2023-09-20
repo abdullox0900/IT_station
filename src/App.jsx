@@ -9,6 +9,7 @@ import Buy from "./components/buy/buy";
 import HelpCenter from './components/help_center/help_center';
 import Slider from './components/slider/slider';
 import Location from './components/location/location';
+import Footer from './components/footer/footer.jsx';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Buy />
         <HelpCenter />
         <Location />
+        <Footer />
       </Container>
     </>
   )
