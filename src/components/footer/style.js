@@ -1,6 +1,23 @@
 import { styled } from "styled-components";
 
+export const FooterWrap = styled.footer`
+  position: relative;
+   
+ 
+`
+
+export const FooterBg = styled.div`
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.26) 0%, #F2B100 100%);
+    z-index: -1;
+`
+
 export const FooterSection = styled.div`
+  position: relative;
   padding-bottom: 50px;
 `;
 

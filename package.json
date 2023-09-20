@@ -11,6 +11,7 @@
     "server": "live-server public --host=192.168.0.115 --port=3000 --middleware=./disable-browser-cache.js"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "primereact": "^9.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

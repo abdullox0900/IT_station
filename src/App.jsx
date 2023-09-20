@@ -25,8 +25,8 @@ function App() {
         <Buy />
         <HelpCenter />
         <Location />
-        <Footer />
       </Container>
+        <Footer />
     </>
   )
 }
