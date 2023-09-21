@@ -20,13 +20,13 @@ function App() {
         <Hero />
         <About_us />
         <Course />
-        <Slider />
+        {/* <Slider />/ */}
         <FreeCourse />
-        <Buy />
-        <HelpCenter />
-        <Location />
+        {/* <Buy /> */}
+        {/* <HelpCenter /> */}
+        {/* <Location /> */}
       </Container>
-        <Footer />
+      <Footer />
     </>
   )
 }

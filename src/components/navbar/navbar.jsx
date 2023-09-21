@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 // Import Style
-import { NavbarButton, NavbarHamburgerBtn, NavbarHamburgerSpan, NavbarHamburgerSpanWrapper, NavbarItem, NavbarList, NavbarLogo, NavbarLogoImg, NavbarSection, NavbarWrapper } from './style'
+import { NavbarButton, NavbarHamburgerBtn, NavbarHamburgerList, NavbarHamburgerSpan, NavbarHamburgerSpanWrapper, NavbarItem, NavbarList, NavbarLogo, NavbarLogoImg, NavbarSection, NavbarWrapper } from './style'
 
 // Import Images
 import NavbarBrand from "../../assets/img/ItStation-logo.png"
@@ -27,10 +27,14 @@ export default function Navbar() {
                 </NavbarLogo>
 
                 <Sidebar visible={visibleRight} position="right" onHide={() => setVisibleRight(false)}>
-                    <NavbarItem>Kurslar</NavbarItem>
-                    <NavbarItem>Blog</NavbarItem>
-                    <NavbarItem>Contact</NavbarItem>
-                    <NavbarItem>Blog</NavbarItem>
+                    <NavbarHamburgerList>
+                        <NavbarLogoImg src={NavbarBrand} alt='Logo' />
+                        <NavbarItem>Kurslar</NavbarItem>
+                        <NavbarItem>Blog</NavbarItem>
+                        <NavbarItem>Contact</NavbarItem>
+                        <NavbarItem>Blog</NavbarItem>
+                        <NavbarButton>Login</NavbarButton>
+                    </NavbarHamburgerList>
                 </Sidebar>
 
                 <NavbarList>

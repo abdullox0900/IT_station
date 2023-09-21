@@ -61,7 +61,7 @@ export const HeroLeftTitleH1 = styled.h1`
   }
 
   @media only screen and (max-width: 768px) {
-    padding-top: 40px;
+    padding-top: 10px;
     text-align: center;
   }
 
@@ -77,7 +77,7 @@ export const HeroLeftBtnWrapper = styled.div`
   @media only screen and (max-width: 768px) {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 `;
 

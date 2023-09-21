@@ -4,7 +4,7 @@
   position: relative;
 }
 
-.react-player::before {
+/* .react-player::before {
   content: "";
   position: absolute;
   right: -15%;
@@ -16,4 +16,4 @@
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
-}
+} */

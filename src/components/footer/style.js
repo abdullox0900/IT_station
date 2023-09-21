@@ -2,19 +2,25 @@ import { styled } from "styled-components";
 
 export const FooterWrap = styled.footer`
   position: relative;
-   
- 
-`
+`;
 
 export const FooterBg = styled.div`
-    content: "";
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 400px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.26) 0%, #F2B100 100%);
-    z-index: -1;
-`
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.26) 0%,
+    #f2b100 100%
+  );
+  z-index: -1;
+
+  @media only screen and (max-width: 768px) {
+    height: 850px;
+  }
+`;
 
 export const FooterSection = styled.div`
   position: relative;
@@ -37,10 +43,29 @@ export const FooterLogoImg = styled.img`
 export const FooterWrapper = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media only screen and (max-width: 768px) {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+  }
 `;
 
 export const FooterOneWrap = styled.div`
-  width: 250px;
+  /* width: 250px; */
+`;
+
+export const FooterOneWrapBox = styled.div`
+  display: flex;
+  gap: 15px;
+`;
+
+export const FooterOneWrapIcon = styled.img`
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
 `;
 
 export const FooterOneWrapP = styled.p`
@@ -63,6 +88,10 @@ export const FooterTwoWrapH5 = styled.h5`
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 22px;
+  }
 `;
 
 export const FooterTwoWrapP = styled.p`
@@ -86,6 +115,10 @@ export const FooterThreeWrapH5 = styled.h5`
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 22px;
+  }
 `;
 
 export const FooterThreeWrapP = styled.p`
@@ -109,6 +142,8 @@ export const FooterFourWrapH5 = styled.h5`
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-`;
 
-export const FooterFourWrapP = styled.p``;
+  @media only screen and (max-width: 768px) {
+    font-size: 22px;
+  }
+`;

@@ -6,6 +6,8 @@ import {
   FooterLogoImg,
   FooterLogoWrapper,
   FooterOneWrap,
+  FooterOneWrapBox,
+  FooterOneWrapIcon,
   FooterOneWrapP,
   FooterSection,
   FooterThreeWrap,
@@ -20,15 +22,22 @@ import {
 
 // Import Imgaes
 import Brand from "../../assets/img/ItStation-logo.png";
+import CallIcon from "../../assets/svg/call-icon.svg"
+import EmailIcon from "../../assets/svg/email-icon.svg"
+import TimeIcon from "../../assets/svg/time-icon.svg"
+
+// Container
 import { Container } from "../container/container";
 
 export default function Footer() {
   return (
     <>
       <FooterWrap>
+
         <FooterBg data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-duration="1500" />
+          data-aos-easing="ease-in-back"
+          data-aos-duration="1500" />
+
         <Container>
           <FooterSection>
             <FooterLogoWrapper>
@@ -36,10 +45,24 @@ export default function Footer() {
             </FooterLogoWrapper>
 
             <FooterWrapper>
+
               <FooterOneWrap>
-                <FooterOneWrapP>Tel: 92131312</FooterOneWrapP>
-                <FooterOneWrapP>Response hourse: 8 to 20</FooterOneWrapP>
-                <FooterOneWrapP>Email: info@onelearn.com</FooterOneWrapP>
+
+                <FooterOneWrapBox>
+                  <FooterOneWrapIcon src={CallIcon} />
+                  <FooterOneWrapP>Tel: 92131312</FooterOneWrapP>
+                </FooterOneWrapBox>
+
+                <FooterOneWrapBox>
+                  <FooterOneWrapIcon src={TimeIcon} />
+                  <FooterOneWrapP>Response hourse: 8 to 20</FooterOneWrapP>
+                </FooterOneWrapBox>
+
+                <FooterOneWrapBox>
+                  <FooterOneWrapIcon src={EmailIcon} />
+                  <FooterOneWrapP>Email: info@onelearn.com</FooterOneWrapP>
+                </FooterOneWrapBox>
+
               </FooterOneWrap>
 
               <FooterTwoWrap>
@@ -47,18 +70,19 @@ export default function Footer() {
                 <FooterTwoWrapP>Counseling</FooterTwoWrapP>
                 <FooterTwoWrapP>Health and fitness</FooterTwoWrapP>
                 <FooterTwoWrapP>Individual development</FooterTwoWrapP>
-                <FooterTwoWrapP>More</FooterTwoWrapP>
               </FooterTwoWrap>
 
               <FooterThreeWrap>
                 <FooterThreeWrapH5>Links</FooterThreeWrapH5>
                 <FooterThreeWrapP>About Us</FooterThreeWrapP>
                 <FooterThreeWrapP>Blog</FooterThreeWrapP>
+                <FooterThreeWrapP>Contact</FooterThreeWrapP>
               </FooterThreeWrap>
 
               <FooterFourWrap>
                 <FooterFourWrapH5>Socialmedia</FooterFourWrapH5>
               </FooterFourWrap>
+
             </FooterWrapper>
           </FooterSection>
         </Container>

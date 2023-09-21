@@ -102,7 +102,7 @@ export const CourseCardLeftInfo = styled.p`
   }
 `;
 
-export const CourseCardLeftButton = styled.a`
+export const CourseCardLeftButton = styled.button`
   width: 90px;
   padding: 10px 12px;
   border-radius: 4px;
