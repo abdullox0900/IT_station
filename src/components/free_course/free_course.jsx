@@ -14,7 +14,7 @@ export default function FreeCourse() {
         <FreeCourseSection>
             <Container>
                 <FreeCourseStart>
-                    <FreeCourseStartH3>Bepul Online kurslar</FreeCourseStartH3>
+                    <FreeCourseStartH3 data-aos="zoom-in" data-aos-duration="800">Bepul Online kurslar</FreeCourseStartH3>
                 </FreeCourseStart>
 
                 <FreeCourseBtnWrapper>

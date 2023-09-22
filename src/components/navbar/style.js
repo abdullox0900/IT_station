@@ -22,7 +22,11 @@ export const NavbarWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding-top: 34px;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
+
+  @media only screen and (max-width: 540px) {
+    padding-bottom: 50px;
+  }
 
   @media only screen and (max-width: 425px) {
     padding-bottom: 30px;

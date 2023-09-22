@@ -66,6 +66,7 @@ export const HeroLeftTitleH1 = styled.h1`
   }
 
   @media only screen and (max-width: 425px) {
+    padding-top: 30px;
     width: 300px;
     text-align: center;
     font-size: 34px;
@@ -104,99 +105,240 @@ export const HeroLeftButton = styled.button`
   }
 `;
 
-export const HeroRightImg = styled.img`
-  @media only screen and (max-width: 1250px) {
-    width: 550px;
-    height: 450px;
-  }
-
-  @media only screen and (max-width: 1086px) {
-    width: 530px;
-    height: 430px;
-  }
-
-  @media only screen and (max-width: 1140px) {
-    width: 520px;
-    height: 420px;
-  }
-
-  @media only screen and (max-width: 1110px) {
-    width: 500px;
-    height: 400px;
-  }
-
-  @media only screen and (max-width: 868px) {
-    width: 410px;
-    height: 320px;
-  }
-
-  @media only screen and (max-width: 800px) {
-    width: 400px;
-    height: 320px;
-  }
-
-  @media only screen and (max-width: 768px) {
-    width: 400px;
-    height: 320px;
-  }
-
-  @media only screen and (max-width: 425px) {
-    width: 400px;
-    height: 300px;
-  }
-`;
+// <- -------------------------- Hero Right -------------------------------- ->
 
 export const HeroStudentBox = styled.div`
   position: relative;
   width: 720px;
   height: 553px;
-  /* background-color: aqua */
+
+  @media only screen and (max-width: 1240px) {
+    width: 550px;
+    height: 450px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    width: 450px;
+    height: 350px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 350px;
+    height: 250px;
+  }
 `;
 
 export const HeroStudentOval = styled.img`
   position: absolute;
   left: 80px;
   bottom: 0;
+
+  @media only screen and (max-width: 1240px) {
+    width: 450px;
+    height: 250px;
+    left: 50px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    width: 400px;
+    height: 200px;
+    left: 27px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 300px;
+    height: 150px;
+  }
 `;
 
 export const HeroStudentOvalTwo = styled.img`
   position: absolute;
   left: 5px;
   bottom: 0;
+
+  @media only screen and (max-width: 1240px) {
+    width: 500px;
+    height: 300px;
+    left: 25px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    width: 450px;
+    height: 250px;
+    left: 0px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 300px;
+    height: 180px;
+    left: 25px;
+  }
 `;
 
 export const HeroStudentBg = styled.img`
   position: absolute;
   right: -20px;
   z-index: 2;
+
+  @media only screen and (max-width: 1240px) {
+    width: 600px;
+    height: 450px;
+    bottom: 0;
+  }
+
+  @media only screen and (max-width: 950px) {
+    width: 500px;
+    height: 350px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 350px;
+    height: 250px;
+    right: 0;
+  }
 `;
+
+// <- ------------------------------------ Hero Icons ------------------------------------------ ->
 
 export const HeroReactIcon = styled.img`
   position: absolute;
+  width: 78px;
+  height: 69px;
   top: 190px;
   left: 50px;
+
+  @media only screen and (max-width: 1240px) {
+    width: 68px;
+    height: 60px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    width: 50px;
+    height: 40px;
+    top: 130px;
+    left: 50px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 40px;
+    height: 40px;
+    top: 120px;
+    left: 30px;
+  }
 `;
 
 export const HeroFigmaIcon = styled.img`
   position: absolute;
-  right: 100px;
+  width: 82.998px;
+  height: 122px;
   top: 180px;
+  right: 160px;
+
+  @media only screen and (max-width: 1240px) {
+    width: 65px;
+    height: 110px;
+    top: 140px;
+    right: 120px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    width: 50px;
+    height: 80px;
+    top: 110px;
+    right: 100px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 40px;
+    height: 60px;
+    top: 80px;
+    right: 70px;
+  }
 `;
 
 export const HeroHtmlIcon = styled.img`
   position: absolute;
-  top: 170px;
+  width: 110px;
+  height: 155px;
+  top: 190px;
   left: 170px;
+
+  @media only screen and (max-width: 1240px) {
+    width: 100px;
+    height: 100px;
+    top: 170px;
+    left: 120px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    width: 80px;
+    height: 80px;
+    top: 135px;
+    left: 100px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 60px;
+    height: 60px;
+    top: 100px;
+    left: 85px;
+  }
 `;
 
 export const HeroJavaScriptIcon = styled.img`
   position: absolute;
-  left: -20px;
+  width: 163px;
+  height: 161px;
+  left: 15px;
   bottom: -40px;
+
+  @media only screen and (max-width: 1240px) {
+    width: 120px;
+    height: 120px;
+    left: 25px;
+    bottom: -40px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    bottom: -30px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 80px;
+    height: 80px;
+    left: 20px;
+    bottom: -10px;
+  }
 `;
 
 export const HeroPythonIcon = styled.img`
   position: absolute;
-  right: 40px;
-  bottom: -70px;
+  width: 111px;
+  height: 102.846px;
+  right: 60px;
+  bottom: -50px;
+
+  @media only screen and (max-width: 1240px) {
+    width: 100px;
+    height: 100px;
+    right: 35px;
+    bottom: -50px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    width: 80px;
+    height: 80px;
+    right: 40px;
+    bottom: -40px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 50px;
+    height: 50px;
+    right: 40px;
+    bottom: -20px;
+  }
 `;
