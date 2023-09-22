@@ -25,7 +25,7 @@ export default function Hero() {
                     </HeroLeftTitle>
 
                     <HeroLeftBtnWrapper>
-                        <HeroLeftButton data-aos="fade-up-right" data-aos-duration="1400">O'qishni boshlash</HeroLeftButton>
+                        <HeroLeftButton data-aos="fade-right" data-aos-duration="1400">O'qishni boshlash</HeroLeftButton>
                     </HeroLeftBtnWrapper>
                 </HeroLeft>
 
@@ -36,7 +36,7 @@ export default function Hero() {
 
                         <HeroStudentBg src={HeroStudentImg} data-aos="zoom-in-up" data-aos-duration="1200" />
 
-                        <HeroReactIcon src={React_Icon} data-aos="zoom-in-right" data-aos-duration="1200" />
+                        <HeroReactIcon src={React_Icon} data-aos="zoom-in" data-aos-duration="1400" />
                         <HeroFigmaIcon src={Figma_Icon} data-aos="fade-up" data-aos-duration="3000" />
                         <HeroHtmlIcon src={Html_Icon} data-aos="fade-up" data-aos-duration="3000" />
                         <HeroJavaScriptIcon src={JavaScript_Icon} data-aos="fade-left" data-aos-duration="3000" />

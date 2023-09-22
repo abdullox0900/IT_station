@@ -21,6 +21,11 @@ export const LocationStartH3 = styled.h3`
   @media only screen and (max-width: 580px) {
     width: 250px;
   }
+
+  @media only screen and (max-width: 480px) {
+    font-size: 25px;
+    line-height: 16px; /* 175% */
+  }
 `;
 
 export const LocaitonWrapper = styled.div`
@@ -41,8 +46,12 @@ export const LocationBgBox = styled.div`
   position: absolute;
   width: 1000px;
   height: 400px;
-  transform: rotate(8.395deg);
   border-radius: 10px;
   background: rgba(243, 186, 29, 0.59);
   z-index: -1;
+  transform: rotate(8deg);
+
+  @media only screen and (max-width: 1100px) {
+    display: none;
+  }
 `;

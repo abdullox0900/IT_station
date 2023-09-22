@@ -72,6 +72,15 @@ export const HeroLeftTitleH1 = styled.h1`
     font-size: 34px;
     line-height: 45px;
   }
+
+  @media only screen and (max-width: 350px) {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 230px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 35px;
+  }
 `;
 
 export const HeroLeftBtnWrapper = styled.div`
@@ -102,6 +111,12 @@ export const HeroLeftButton = styled.button`
   @media only screen and (max-width: 425px) {
     padding: 15px 10px;
     width: 181px;
+  }
+
+  @media only screen and (max-width: 350px) {
+    padding: 10px 10px;
+    width: 200px;
+    font-size: 12px;
   }
 `;
 

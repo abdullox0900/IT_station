@@ -1,4 +1,6 @@
 import React from "react";
+
+// Import Style
 import {
     LocaitonWrapper,
     LocationBgBox,
@@ -15,11 +17,11 @@ export default function Location() {
                 <LocationStartH3>Bizning manzil</LocationStartH3>
             </LocationStart>
 
-            <LocaitonWrapper>
+            <LocaitonWrapper data-aos="zoom-out" data-aos-duration="1400">
                 <LocationBgBox>
                 </LocationBgBox>
 
-                <LocationBox>
+                <LocationBox data-aos="flip-left" data-aos-duration="1800">
                 </LocationBox>
             </LocaitonWrapper>
         </LocationSection>

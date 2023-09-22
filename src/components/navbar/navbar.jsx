@@ -11,6 +11,7 @@ import NavbarBrand from "../../assets/img/ItStation-logo.png"
 import { Sidebar } from 'primereact/sidebar';
 import { Button } from 'primereact/button';
 
+// Import PrimeReact
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 

@@ -10,12 +10,12 @@ export default function Course() {
     return (
         <CourseSection>
             <CourseStart>
-                <CourseStartH3 data-aos="fade-right" data-aos-duration="1000">Yo'nalishlar bo'yicha kurslar</CourseStartH3>
+                <CourseStartH3 data-aos="zoom-in" data-aos-duration="1300">Yo'nalishlar bo'yicha kurslar</CourseStartH3>
             </CourseStart>
 
             <CourseWrapper>
 
-                <CourseCard data-aos="fade-right" data-aos-duration="1000">
+                <CourseCard data-aos="zoom-in" data-aos-duration="1000">
 
                     <CourseCardLeft>
                         <CourseCardLeftName>Dasturlash foundation</CourseCardLeftName>
@@ -33,7 +33,7 @@ export default function Course() {
 
                 </CourseCard>
 
-                <CourseCard data-aos="fade-left" data-aos-duration="1000">
+                <CourseCard data-aos="zoom-in" data-aos-duration="1000">
 
                     <CourseCardLeft>
                         <CourseCardLeftName>Dasturlash foundation</CourseCardLeftName>
@@ -51,7 +51,7 @@ export default function Course() {
 
                 </CourseCard>
 
-                <CourseCard data-aos="fade-right" data-aos-duration="1000">
+                <CourseCard data-aos="zoom-in" data-aos-duration="1000">
 
                     <CourseCardLeft>
                         <CourseCardLeftName>Dasturlash foundation</CourseCardLeftName>
@@ -69,7 +69,7 @@ export default function Course() {
 
                 </CourseCard>
 
-                <CourseCard data-aos="fade-left" data-aos-duration="1000">
+                <CourseCard data-aos="zoom-in" data-aos-duration="1000">
 
                     <CourseCardLeft>
                         <CourseCardLeftName>Dasturlash foundation</CourseCardLeftName>
@@ -88,6 +88,6 @@ export default function Course() {
                 </CourseCard>
 
             </CourseWrapper>
-        </CourseSection>
+        </CourseSection >
     )
 }

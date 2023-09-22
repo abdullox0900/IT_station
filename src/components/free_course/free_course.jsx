@@ -14,21 +14,47 @@ export default function FreeCourse() {
         <FreeCourseSection>
             <Container>
                 <FreeCourseStart>
-                    <FreeCourseStartH3 data-aos="zoom-in" data-aos-duration="800">Bepul Online kurslar</FreeCourseStartH3>
+                    <FreeCourseStartH3 data-aos="zoom-in" data-aos-duration="1000">Bepul Online kurslar</FreeCourseStartH3>
                 </FreeCourseStart>
 
                 <FreeCourseBtnWrapper>
-                    <FreeCourseBtns>all programme</FreeCourseBtns>
-                    <FreeCourseBtns>ui/ux design</FreeCourseBtns>
-                    <FreeCourseBtns>program  design</FreeCourseBtns>
-                    <FreeCourseBtns>program  design</FreeCourseBtns>
-                    <FreeCourseBtns>program  design</FreeCourseBtns>
-                    <FreeCourseBtns>program  design</FreeCourseBtns>
+                    <FreeCourseBtns data-aos="fade-up" data-aos-duration="1200">all programme</FreeCourseBtns>
+                    <FreeCourseBtns data-aos="fade-up" data-aos-duration="1200">ui/ux design</FreeCourseBtns>
+                    <FreeCourseBtns data-aos="fade-up" data-aos-duration="1200">program  design</FreeCourseBtns>
+                    <FreeCourseBtns data-aos="fade-up" data-aos-duration="1200">program  design</FreeCourseBtns>
+                    <FreeCourseBtns data-aos="fade-up" data-aos-duration="1200">program  design</FreeCourseBtns>
+                    <FreeCourseBtns data-aos="fade-up" data-aos-duration="1200">program  design</FreeCourseBtns>
                 </FreeCourseBtnWrapper>
+
 
                 <FreeCourseCardsWrapper>
 
-                    <FreeCourseCard>
+                    <FreeCourseCard data-aos="zoom-in" data-aos-duration="1400">
+
+                        <FreeCourseCardTop>
+                            <FreeCourseCardTopImg src={FreeCourseCardImgPng} />
+                        </FreeCourseCardTop>
+
+                        <FreeCourseCardCenter>
+                            <FreeCourseCardCenterP>1 - 28 July 2022</FreeCourseCardCenterP>
+                            <FreeCourseCardCenterH5>Product Management Basic - Course</FreeCourseCardCenterH5>
+                            <FreeCourseCardCenterInfo>Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.</FreeCourseCardCenterInfo>
+                        </FreeCourseCardCenter>
+
+                        <FreeCourseCardBottom>
+                            <FreeCourseCardBottomDollarWrapper>
+                                <FreeCourseCardBottomH4>Belup</FreeCourseCardBottomH4>
+                                <FreeCourseCardBottomDollar>$ 500</FreeCourseCardBottomDollar>
+                            </FreeCourseCardBottomDollarWrapper>
+
+                            <FreeCourseCardBottomButton>enroll now</FreeCourseCardBottomButton>
+                        </FreeCourseCardBottom>
+
+                    </FreeCourseCard>
+
+
+                    <FreeCourseCard data-aos="zoom-in" data-aos-duration="1400">
+
                         <FreeCourseCardTop>
                             <FreeCourseCardTopImg src={FreeCourseCardImgPng} />
                         </FreeCourseCardTop>
@@ -48,7 +74,9 @@ export default function FreeCourse() {
                             <FreeCourseCardBottomButton>enroll now</FreeCourseCardBottomButton>
                         </FreeCourseCardBottom>
                     </FreeCourseCard>
-                    <FreeCourseCard>
+                    
+                    <FreeCourseCard data-aos="zoom-in" data-aos-duration="1400">
+                        
                         <FreeCourseCardTop>
                             <FreeCourseCardTopImg src={FreeCourseCardImgPng} />
                         </FreeCourseCardTop>
@@ -67,26 +95,7 @@ export default function FreeCourse() {
 
                             <FreeCourseCardBottomButton>enroll now</FreeCourseCardBottomButton>
                         </FreeCourseCardBottom>
-                    </FreeCourseCard>
-                    <FreeCourseCard>
-                        <FreeCourseCardTop>
-                            <FreeCourseCardTopImg src={FreeCourseCardImgPng} />
-                        </FreeCourseCardTop>
 
-                        <FreeCourseCardCenter>
-                            <FreeCourseCardCenterP>1 - 28 July 2022</FreeCourseCardCenterP>
-                            <FreeCourseCardCenterH5>Product Management Basic - Course</FreeCourseCardCenterH5>
-                            <FreeCourseCardCenterInfo>Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.</FreeCourseCardCenterInfo>
-                        </FreeCourseCardCenter>
-
-                        <FreeCourseCardBottom>
-                            <FreeCourseCardBottomDollarWrapper>
-                                <FreeCourseCardBottomH4>Belup</FreeCourseCardBottomH4>
-                                <FreeCourseCardBottomDollar>$ 500</FreeCourseCardBottomDollar>
-                            </FreeCourseCardBottomDollarWrapper>
-
-                            <FreeCourseCardBottomButton>enroll now</FreeCourseCardBottomButton>
-                        </FreeCourseCardBottom>
                     </FreeCourseCard>
 
                 </FreeCourseCardsWrapper>

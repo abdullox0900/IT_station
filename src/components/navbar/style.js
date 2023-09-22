@@ -8,7 +8,7 @@ export const NavbarLogoImg = styled.img`
 
   @media only screen and (max-width: 768px) {
     width: 120px;
-    height: 57px;
+    height: 60px;
   }
 
   @media only screen and (max-width: 425px) {
@@ -31,6 +31,10 @@ export const NavbarWrapper = styled.div`
   @media only screen and (max-width: 425px) {
     padding-bottom: 30px;
   }
+
+  @media only screen and (max-width: 350px) {
+    padding-bottom: 10px;
+  }
 `;
 
 export const NavbarLogo = styled.div`
@@ -42,11 +46,7 @@ export const NavbarList = styled.ul`
   align-items: center;
   gap: 25px;
 
-  @media only screen and (max-width: 580px) {
-    display: none;
-  }
-
-  @media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 768px) {
     display: none;
   }
 `;
@@ -100,9 +100,6 @@ export const NavbarButton = styled.button`
     width: 100.059px;
     padding: 10px 10px;
     border-radius: 10px;
-  }
-
-  @media only screen and (max-width: 580px) {
     margin-top: 30px;
   }
 
@@ -127,11 +124,7 @@ export const NavbarHamburgerBtn = styled.button`
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
   display: none;
 
-  @media only screen and (max-width: 580px) {
-    display: flex;
-  }
-
-  @media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 768px) {
     display: flex;
   }
 `;
