@@ -21,25 +21,26 @@ export default function Hero() {
             <HeroWrapper>
                 <HeroLeft>
                     <HeroLeftTitle>
-                        <HeroLeftTitleH1>Dasturlashga oid kasblarni o'rgatamiz</HeroLeftTitleH1>
+                        <HeroLeftTitleH1 data-aos="fade-right" data-aos-duration="1400">Dasturlashga oid kasblarni o'rgatamiz</HeroLeftTitleH1>
                     </HeroLeftTitle>
 
                     <HeroLeftBtnWrapper>
-                        <HeroLeftButton>O'qishni boshlash</HeroLeftButton>
+                        <HeroLeftButton data-aos="fade-up-right" data-aos-duration="1400">O'qishni boshlash</HeroLeftButton>
                     </HeroLeftBtnWrapper>
                 </HeroLeft>
 
                 <HeroRight>
                     <HeroStudentBox>
-                        <HeroStudentOval src={HeroOvalOne} />
-                        <HeroStudentOvalTwo src={HeroOvalTwo} />
-                        <HeroStudentBg src={HeroStudentImg} />
+                        <HeroStudentOval src={HeroOvalOne} data-aos="fade-up" data-aos-duration="800" />
+                        <HeroStudentOvalTwo src={HeroOvalTwo} data-aos="fade-up" data-aos-duration="1200" />
 
-                        <HeroReactIcon src={React_Icon} />
-                        <HeroFigmaIcon src={Figma_Icon} />
-                        <HeroHtmlIcon src={Html_Icon} />
-                        <HeroJavaScriptIcon src={JavaScript_Icon} />
-                        <HeroPythonIcon src={Python_Icon} />
+                        <HeroStudentBg src={HeroStudentImg} data-aos="zoom-in-up" data-aos-duration="1200" />
+
+                        <HeroReactIcon src={React_Icon} data-aos="zoom-in-right" data-aos-duration="1200" />
+                        <HeroFigmaIcon src={Figma_Icon} data-aos="zoom-in-left" data-aos-duration="1200" />
+                        <HeroHtmlIcon src={Html_Icon} data-aos="fade-up" data-aos-duration="3000" />
+                        <HeroJavaScriptIcon src={JavaScript_Icon} data-aos="fade-left" data-aos-duration="3000" />
+                        <HeroPythonIcon src={Python_Icon} data-aos="zoom-in-left" data-aos-duration="1200" />
                     </HeroStudentBox>
                 </HeroRight>
             </HeroWrapper>
