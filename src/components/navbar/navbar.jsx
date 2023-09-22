@@ -29,12 +29,12 @@ export default function Navbar() {
 
                 <Sidebar visible={visibleRight} position="right" onHide={() => setVisibleRight(false)}>
                     <NavbarHamburgerList>
-                        <NavbarLogoImg src={NavbarBrand} alt='Logo' />
-                        <NavbarItem>Kurslar</NavbarItem>
-                        <NavbarItem>Blog</NavbarItem>
-                        <NavbarItem>Contact</NavbarItem>
-                        <NavbarItem>Blog</NavbarItem>
-                        <NavbarButton>Login</NavbarButton>
+                        <NavbarLogoImg src={NavbarBrand} alt='Logo' data-aos="fade-down" data-aos-duration="800" />
+                        <NavbarItem data-aos="zoom-in" data-aos-duration="1000">Kurslar</NavbarItem>
+                        <NavbarItem data-aos="zoom-in" data-aos-duration="1000">Blog</NavbarItem>
+                        <NavbarItem data-aos="zoom-in" data-aos-duration="1000">Contact</NavbarItem>
+                        <NavbarItem data-aos="zoom-in" data-aos-duration="1000">Blog</NavbarItem>
+                        <NavbarButton data-aos="fade-up" data-aos-duration="1000">Login</NavbarButton>
                     </NavbarHamburgerList>
                 </Sidebar>
 
