@@ -19,10 +19,10 @@ export const HeroWrapper = styled.div`
 `;
 
 export const HeroLeftTitleH1 = styled.h1`
-  width: 547px;
+  width: 470px;
   color: #17222b;
   font-family: Roboto;
-  font-size: 64px;
+  font-size: 54px;
   font-style: normal;
   font-weight: 700;
   line-height: 76px;
@@ -144,4 +144,59 @@ export const HeroRightImg = styled.img`
     width: 400px;
     height: 300px;
   }
+`;
+
+export const HeroStudentBox = styled.div`
+  position: relative;
+  width: 720px;
+  height: 553px;
+  /* background-color: aqua */
+`;
+
+export const HeroStudentOval = styled.img`
+  position: absolute;
+  left: 80px;
+  bottom: 0;
+`;
+
+export const HeroStudentOvalTwo = styled.img`
+  position: absolute;
+  left: 5px;
+  bottom: 0;
+`;
+
+export const HeroStudentBg = styled.img`
+  position: absolute;
+  right: -20px;
+  z-index: 2;
+`;
+
+export const HeroReactIcon = styled.img`
+  position: absolute;
+  top: 190px;
+  left: 50px;
+`;
+
+export const HeroFigmaIcon = styled.img`
+  position: absolute;
+  right: 100px;
+  top: 180px;
+`;
+
+export const HeroHtmlIcon = styled.img`
+  position: absolute;
+  top: 170px;
+  left: 170px;
+`;
+
+export const HeroJavaScriptIcon = styled.img`
+  position: absolute;
+  left: -20px;
+  bottom: -40px;
+`;
+
+export const HeroPythonIcon = styled.img`
+  position: absolute;
+  right: 40px;
+  bottom: -70px;
 `;

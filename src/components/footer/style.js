@@ -95,6 +95,7 @@ export const FooterTwoWrapH5 = styled.h5`
 `;
 
 export const FooterTwoWrapP = styled.p`
+  position: relative;
   margin-top: 17px;
   color: #263039;
   font-family: Raleway;
@@ -103,6 +104,24 @@ export const FooterTwoWrapP = styled.p`
   font-weight: 500;
   line-height: normal;
   cursor: pointer;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    border-radius: 10px;
+    background-color: #000;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
 `;
 
 export const FooterThreeWrap = styled.div``;
@@ -122,6 +141,7 @@ export const FooterThreeWrapH5 = styled.h5`
 `;
 
 export const FooterThreeWrapP = styled.p`
+  position: relative;
   margin-top: 17px;
   color: #263039;
   font-family: Raleway;
@@ -130,6 +150,24 @@ export const FooterThreeWrapP = styled.p`
   font-weight: 500;
   line-height: normal;
   cursor: pointer;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    border-radius: 10px;
+    background-color: #000;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
 `;
 
 export const FooterFourWrap = styled.div``;
