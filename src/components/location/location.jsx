@@ -1,6 +1,7 @@
 import React from "react";
 import {
     LocaitonWrapper,
+    LocationBgBox,
     LocationBox,
     LocationSection,
     LocationStart,
@@ -15,8 +16,10 @@ export default function Location() {
             </LocationStart>
 
             <LocaitonWrapper>
+                <LocationBgBox>
+                </LocationBgBox>
+
                 <LocationBox>
-                  
                 </LocationBox>
             </LocaitonWrapper>
         </LocationSection>

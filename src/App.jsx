@@ -17,13 +17,13 @@ function App() {
     <>
       <Container>
         <Navbar />
-        <Hero />
+        {/* <Hero /> */}
         <About_us />
         <Course />
-        <Slider />
+        {/* <Slider /> */}
         <FreeCourse />
-        <Buy />
-        <HelpCenter />
+        {/* <Buy /> */}
+        {/* <HelpCenter /> */}
         <Location />
       </Container>
       <Footer />
