@@ -35,17 +35,17 @@ export const BuyBox = styled.div`
 
   @media only screen and (max-width: 580px) {
     width: 450px;
-    height: 300px;
+    height: 400px;
   }
 
   @media only screen and (max-width: 480px) {
-    width: 350px;
-    height: 230px;
+    width: 380px;
+    height: 300px;
   }
 
   @media only screen and (max-width: 385px) {
     width: 300px;
-    height: 230px;
+    height: 300px;
   }
 `;
 
@@ -75,12 +75,12 @@ export const BuyBoxLeftH2 = styled.h2`
   }
 
   @media only screen and (max-width: 480px) {
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: -0.1px;
   }
 
   @media only screen and (max-width: 385px) {
-    font-size: 10px;
+    font-size: 14px;
   }
 `;
 
@@ -114,16 +114,17 @@ export const BuyBoxLeftP = styled.p`
   }
 
   @media only screen and (max-width: 580px) {
-    font-size: 8px;
+    font-size: 9px;
+    white-space: nowrap;
+
   }
 
   @media only screen and (max-width: 480px) {
-    font-size: 6px;
-    white-space: nowrap;
+    font-size: 8px;
   }
 
   @media only screen and (max-width: 385px) {
-    font-size: 5px;
+    font-size: 7px;
   }
 `;
 
@@ -156,12 +157,12 @@ export const BuyBoxLeftBtn = styled.button`
   }
 
   @media only screen and (max-width: 480px) {
-    padding: 7px 7px;
+    padding: 10px 10px;
     font-size: 13px;
   }
 
   @media only screen and (max-width: 385px) {
-    padding: 7px 7px;
+    padding: 10px 10px;
     font-size: 10px;
   }
 `;

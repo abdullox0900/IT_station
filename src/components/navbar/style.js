@@ -52,14 +52,32 @@ export const NavbarList = styled.ul`
 `;
 
 export const NavbarItem = styled.li`
+  position: relative;
   color: rgba(0, 0, 0, 0.87);
-  font-family: Roboto;
+  font-family: Nunito;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  text-transform: uppercase;
   cursor: pointer;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    border-radius: 10px;
+    background-color: #000;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+  }
 
   @media only screen and (max-width: 768px) {
     font-size: 18px;
@@ -89,7 +107,7 @@ export const NavbarButton = styled.button`
   box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.16);
   color: #fff;
   text-align: center;
-  font-family: Roboto;
+  font-family: Nunito;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;

@@ -36,7 +36,7 @@ export default function Footer() {
 
         <FooterBg data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
-          data-aos-duration="1500" />
+          data-aos-duration="1200" />
 
         <Container>
           <FooterSection>

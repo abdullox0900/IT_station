@@ -84,7 +84,7 @@ export const HelpBoxH2 = styled.h2`
     width: 250px;
     font-size: 18px;
     line-height: 20px; /* 125% */
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     text-align: center;
   }
 `;
@@ -119,7 +119,6 @@ export const HelpBoxP = styled.p`
 
   @media only screen and (max-width: 480px) {
     font-size: 8px;
-    letter-spacing: 1px;
   }
 `;
 
