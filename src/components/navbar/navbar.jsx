@@ -39,7 +39,7 @@ export default function Navbar() {
                 </Sidebar>
 
                 <NavbarList>
-                    <NavbarItem>Kurslar</NavbarItem>
+                    {/* <NavbarItem>Kurslar</NavbarItem> */}
                     <NavbarItem>Blog</NavbarItem>
                     <NavbarItem>Contact</NavbarItem>
                     <NavbarButton>Login</NavbarButton>
